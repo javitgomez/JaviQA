@@ -1,5 +1,12 @@
 Feature:  let's go on sale at Zara
 
+
+  Scenario: Purchase a perfume
+    Given User enter and click on login
+    When User goes to perfum
+    When User goes to the last purchase screen
+    Then User logout
+
   Scenario: Login
     Given The user enter and click on login
     When Enter email and enter password
