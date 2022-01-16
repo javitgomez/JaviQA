@@ -34,6 +34,7 @@ public class ZaraSteps {
     @When("^User goes to the last purchase screen$")
     public void goes_last_screen()throws InterruptedException{
         zaraActions.buttonAddCart();
+        Thread.sleep(1000);
         zaraActions.buttonGoCart();
         Thread.sleep(1000);
         //zaraActions.buttonEditOrder();
@@ -64,9 +65,11 @@ public class ZaraSteps {
         zaraActions.buttonColor();
     }
     @When("^User goes to the last one purchase screen$")
-    public void button_last_one_screen(){
+    public void button_last_one_screen()throws InterruptedException{
         zaraActions.buttonAddCart2();
+        Thread.sleep(1000);
         zaraActions.buttonGoCart();
+        Thread.sleep(1000);
         zaraActions.buttonContinue1();
         zaraActions.buttonContinue2();
         zaraActions.buttoncard();
