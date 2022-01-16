@@ -7,7 +7,6 @@ import static elements.ZaraElements.*;
 
 public class ZaraActions {
 
-
     ZaraElements zaraElements = new ZaraElements();
     public void openZara(){
         open("https://www.zara.com/es/");
@@ -30,10 +29,6 @@ public class ZaraActions {
         SEARCH_BARR.sendKeys("ENERGETICALLY NEW YORK");
     }
     public void buttonPerfume(){ SEARCH_BUTTON_PERFUME.click(); }
-
-    /*public void buttonSize(){
-        BUTTON_SIZE.click();
-    }*/
     public void buttonAddCart(){
         BUTTON_ADD_CART.click();
     }
@@ -45,6 +40,9 @@ public class ZaraActions {
     }
     public void buttonEditOrder(){
         BUTTON_EDIT_ORDER.click();
+    }
+    public void buttonGiftCard(){
+        BUTTON_GIFT_CARD.click();
     }
     public void enterFrom(){
         FROM_BAR.sendKeys("Manuel Martinez");
@@ -97,6 +95,7 @@ public class ZaraActions {
     public void buttonAddCart2(){
         BUTTON_ADD_CART2.click();
     }
-
-
+    /*public void buttonSize(){
+        BUTTON_SIZE.click();
+    }*/
 }
