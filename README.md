@@ -1,5 +1,5 @@
 # QA_Engineer_Personal_Project
- _Este proyecto vamos a generar un informe de pruebas Serenity (index.html) utilizando Cucumber, JUnit y Selenide._
+ _Este proyecto vamos a generar un informe de pruebas Serenity (index.html) utilizando Cucumber, JUnit y Selenide de la web de ZARA._
  ### Pre-requisitos 📋
 - _Java instalado_
 - _IntelliJ instalado_
