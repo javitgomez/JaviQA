@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="let's go on sale at Zara" skipped="4" tests="5" time="22.56" timestamp="2022-01-14 05:05:26"><testcase name="Purchase a perfume"/><testcase name="Login"><skipped/></testcase><testcase name="Go to trousers"><skipped/></testcase><testcase name="Buy clothes"><skipped/></testcase><testcase name="Logout"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="let's go on sale at Zara" skipped="0" tests="2" time="31.26" timestamp="2022-01-16 08:11:36"><testcase name="Purchase a perfume"><failure message="Element not found {By.xpath: //p[contains(text(),'Ticket regalo incluido')]}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.png&#10;Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),'Ticket regalo incluido')]&quot;}" type="java.lang.AssertionError">Element not found {By.xpath: //p[contains(text(),'Ticket regalo incluido')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.png
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Ticket regalo incluido')]"}</failure><system-err>Element not found {By.xpath: //p[contains(text(),'Ticket regalo incluido')]}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.png
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360321947.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Ticket regalo incluido')]"}&#13;
+com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)&#13;
+com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)&#13;
+com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:65)&#13;
+com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:87)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:13)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:9)&#13;
+com.codeborne.selenide.commands.Commands.execute(Commands.java:145)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)&#13;
+actions.ZaraActions.buttonEditOrder(ZaraActions.java:47)&#13;
+steps.ZaraSteps.goes_last_screen(ZaraSteps.java:39)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase><testcase name="Purchase a bag"><failure message="Element not found {By.xpath: //body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.png&#10;Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]&quot;}" type="java.lang.AssertionError">Element not found {By.xpath: //body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]}
+Expected: exist
+Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.png
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"}</failure><system-err>Element not found {By.xpath: //body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]}
+Expected: exist
+Screenshot: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.png
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1642360328106.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"}&#13;
+com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)&#13;
+com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)&#13;
+actions.ZaraActions.enterUser(ZaraActions.java:22)&#13;
+steps.ZaraSteps.user_access_zara(ZaraSteps.java:22)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase></testsuite>

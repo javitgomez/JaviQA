@@ -1,10 +1,8 @@
 package actions;
 
-import elements.YoutubeElements;
 import elements.ZaraElements;
 
 import static com.codeborne.selenide.Selenide.open;
-import static elements.YoutubeElements.*;
 import static elements.ZaraElements.*;
 
 public class ZaraActions {
@@ -31,10 +29,8 @@ public class ZaraActions {
     public void enterSearch(){
         SEARCH_BARR.sendKeys("ENERGETICALLY NEW YORK");
     }
-    public void buttonTrousers(){ SEARCH_BUTTON_TROUSERS.click(); }
-    /*public void buttonColor(){
-        BUTTON_COLOR.click();
-    }*/
+    public void buttonPerfume(){ SEARCH_BUTTON_PERFUME.click(); }
+
     /*public void buttonSize(){
         BUTTON_SIZE.click();
     }*/
@@ -44,11 +40,11 @@ public class ZaraActions {
     public void buttonGoCart(){
         BUTTON_GO_CART.click();
     }
+    public void buttonLess1(){
+        BUTTON_LESS_1.click();
+    }
     public void buttonEditOrder(){
         BUTTON_EDIT_ORDER.click();
-    }
-    public void buttonAdd1(){
-        BUTTON_ADD_1_MORE.click();
     }
     public void enterFrom(){
         FROM_BAR.sendKeys("Manuel Martinez");
@@ -80,5 +76,27 @@ public class ZaraActions {
     public void buttonLogout(){
         BUTTON_LOGOUT.click();
     }
+    public void buttonOpenMenu(){
+        BUTTON_OPEN_MENU.click();
+    }
+    public void buttonBag(){
+        BUTTON_BAG.click();
+    }
+    public void buttonNewCollection(){
+        BUTTON_NEW_COLLECTION.click();
+    }
+    public void buttonWomen(){
+        BUTTON_WOMEN.click();
+    }
+    public void buttonSelectBag(){
+        BUTTON_SELECT_BAG.click();
+    }
+    public void buttonColor(){
+        BUTTON_COLOR.click();
+    }
+    public void buttonAddCart2(){
+        BUTTON_ADD_CART2.click();
+    }
+
 
 }
