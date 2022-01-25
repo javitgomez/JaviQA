@@ -17,7 +17,6 @@ public class EmployeesSteps {
         //employeesActions.andrewDownButton();
         employeesActions.stevenDownButton();
         Thread.sleep(1000);
-
     }
     @When("^User click on all employees$")
     public void click_all_employees(){
@@ -30,7 +29,6 @@ public class EmployeesSteps {
         employeesActions.robertButton();
         employeesActions.anneButton();
         employeesActions.lauraButton();
-
     }
     @When("^User clicks on the women to remove them from the list$")
     public void click_women_employees(){

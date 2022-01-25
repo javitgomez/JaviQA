@@ -25,15 +25,4 @@ public class EmployeesElements {
     public static SelenideElement LAURA_BUTTON_OFF = $(byXpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[4]/div[2]/div[1]/table[1]/tbody[1]/tr[9]/td[1]/span[4]/div[1]"));
     public static SelenideElement SHOW_LIST_BUTTON = $(byXpath("/html[1]/body[1]/button[1]"));
     public static SelenideElement SHOW_LIST_TEXT = $(byXpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]"));
-
-
-    /*
-    public static SelenideElement COOKIES_BUTTON = $(byId("onetrust-accept-btn-handler"));
-    public static SelenideElement LOGON_BUTTON = $(byXpath("//header/div[1]/div[2]/div[1]/a[1]"));
-    public static SelenideElement USER_BAR = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"));
-    public static SelenideElement PASSWORD_BAR = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/input[1]"));
-    public static SelenideElement CONFIRM_lOGON_BUTTON = $(byXpath("//body/div[@id='app-root']/div[1]/div[1]/div[1]/div[1]/div[2]/main[1]/article[1]/div[1]/div[1]/div[2]/div[1]/section[1]/form[1]/div[2]/button[1]/div[1]"));
-    public static SelenideElement SEARCH_BUTTON = $(byXpath("//header/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]"));
-    public static SelenideElement SEARCH_BARR = $(byXpath("//input[@id='search-products-form-combo-input']"));*/
-
 }
