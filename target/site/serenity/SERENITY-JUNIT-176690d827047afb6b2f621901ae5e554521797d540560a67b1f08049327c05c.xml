@@ -1,1 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="let's go on sale at Zara" skipped="0" tests="2" time="37.32" timestamp="2022-01-16 08:58:32"><testcase name="Purchase a perfume"/><testcase name="Purchase a bag"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="let's go on sale at Zara" skipped="0" tests="2" time="78.88" timestamp="2022-01-25 12:09:23"><testcase name="Purchase a perfume"><failure message="Element not found {By.id: onetrust-accept-btn-handler}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643108980985.0.html&#10;Timeout: 4 s.&#10;Caused by: WebDriverException: chrome not reachable" type="java.lang.AssertionError">Element not found {By.id: onetrust-accept-btn-handler}
+Expected: visible or transparent: visible or have css value opacity=0
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643108980985.0.html
+Timeout: 4 s.
+Caused by: WebDriverException: chrome not reachable</failure><system-err>Element not found {By.id: onetrust-accept-btn-handler}
+Expected: visible or transparent: visible or have css value opacity=0
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643108980985.0.html
+Timeout: 4 s.
+Caused by: WebDriverException: chrome not reachable&#13;
+com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)&#13;
+com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)&#13;
+com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:65)&#13;
+com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:87)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:13)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:9)&#13;
+com.codeborne.selenide.commands.Commands.execute(Commands.java:145)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)&#13;
+actions.ZaraActions.buttonCookies(ZaraActions.java:15)&#13;
+steps.ZaraSteps.enter_zara(ZaraSteps.java:17)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase><testcase name="Purchase a bag"><failure message="Element not found {By.xpath: //header/div[1]/div[2]/div[1]/a[1]}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643109018038.1.html&#10;Timeout: 4 s.&#10;Caused by: WebDriverException: chrome not reachable" type="java.lang.AssertionError">Element not found {By.xpath: //header/div[1]/div[2]/div[1]/a[1]}
+Expected: visible or transparent: visible or have css value opacity=0
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643109018038.1.html
+Timeout: 4 s.
+Caused by: WebDriverException: chrome not reachable</failure><system-err>Element not found {By.xpath: //header/div[1]/div[2]/div[1]/a[1]}
+Expected: visible or transparent: visible or have css value opacity=0
+Page source: file:/C:/Users/javier.toribio/IdeaProjects/JaviQA/build/reports/tests/1643109018038.1.html
+Timeout: 4 s.
+Caused by: WebDriverException: chrome not reachable&#13;
+com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)&#13;
+com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)&#13;
+com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:65)&#13;
+com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:87)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:13)&#13;
+com.codeborne.selenide.commands.Click.execute(Click.java:9)&#13;
+com.codeborne.selenide.commands.Commands.execute(Commands.java:145)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)&#13;
+com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)&#13;
+actions.ZaraActions.buttonLoginZara(ZaraActions.java:18)&#13;
+steps.ZaraSteps.user_access_zara(ZaraSteps.java:21)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase></testsuite>
